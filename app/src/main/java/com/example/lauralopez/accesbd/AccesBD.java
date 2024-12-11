@@ -18,7 +18,6 @@ import java.sql.Statement;
 
 public class AccesBD extends AppCompatActivity {
 
-    private static final String url = "jdbc:mysql://192.168.121.3:3306/BDProva"; //Revisar la IP en cada PC. S'ha d'indicar la IP on hi ha el MySQL
     private static final String user = "usuari";    //Abans d'executar l'app cal verificar que tinguem el servei de MySQL en execució
     private static final String pass = "123456";
     Button btnFetch,btnClear;
